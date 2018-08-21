@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table,td{
+    border: 2px solid #333;
+}
+
+td{
+    width: 70px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(241, 232, 232);
+}
+
+tr:nth-child(2) td:nth-child(3), 
+tr:nth-child(3) td:nth-child(3) {
+    background-color: #333;
+}
+
+tr:nth-child(2) td:nth-child(5),
+tr:nth-child(3) td:nth-child(5) {
+    background-color: #333;
+}
+
+tr:nth-child(2) td:nth-child(6),
+tr:nth-child(3) td:nth-child(6) {
+    background-color: #333;
+}
+
+
+
+
