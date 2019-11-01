@@ -3,6 +3,15 @@ body{
     padding: 0;
 }
 
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
 table,td{
     border: 2px solid #333;
 }
